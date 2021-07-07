@@ -471,7 +471,7 @@ async def play(_, message: Message):
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "I joined this group for playing music in THE VC"
+                        message.chat.id, "annyonghaseyo, Ab mai gaana bajayegi"
                     )
                     await lel.edit(
                         "<b>helper userbot joined your chat</b>",
@@ -747,7 +747,7 @@ async def ytplay(_, message: Message):
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "I joined this group for playing music in VC"
+                        message.chat.id, "annyonghaseyo, Ab mai gaana bajayegi"
                     )
                     await lel.edit(
                         "<b>helper userbot joined your chat</b>",
@@ -893,7 +893,7 @@ async def deezer(client: Client, message_: Message):
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message_.chat.id, "I joined this group for playing music in VC"
+                        message_.chat.id, "annyonghaseyo, Ab mai gaana bajayegi"
                     )
                     await lel.edit(
                         "<b>helper userbot joined your chat</b>",
@@ -1031,7 +1031,7 @@ async def jiosaavn(client: Client, message_: Message):
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message_.chat.id, "I joined this group for playing music in VC"
+                        message_.chat.id, "annyonghaseyo, Ab mai gaana bajayegi"
                     )
                     await lel.edit(
                         "<b>helper userbot joined your chat</b>",
